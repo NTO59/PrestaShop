@@ -30,9 +30,17 @@
   .collapse {
     display: inherit;
   }
+
+  // les li du menu avec hauteur fixe pour le sous-menu
+  > li {
+    
+    height: 40px;
+  }
+
   .sub-menu {
-    box-shadow: 2px 1px 11px 2px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 2px 1px 11px 2px rgba(0, 0, 0, 0.1); */
     border: none;
+    border-top:1px solid red;
     margin-left: 0.9375rem;
     width: calc(100% - 30px);
     min-width: calc(100% - 30px);
@@ -42,7 +50,7 @@
     transition: opacity 0.5s ease, visibility 0.5s ease;
 
     ul[data-depth="1"] > li {
-      float: left;
+      float: right;
       margin: 0 1.25rem;
     }
     a:hover {

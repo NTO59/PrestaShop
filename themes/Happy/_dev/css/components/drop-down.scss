@@ -1,10 +1,10 @@
 .dropdown{
   color:$gray;
   &:hover .expand-more{
-    color: $brand-primary;
+    /* color: $brand-primary; */
   }
   .expand-more{
-    color: $gray-darker;
+    color: #fff;
     cursor: pointer;
     user-select: none;
 
@@ -28,6 +28,6 @@
 .dropdown-item:focus, .dropdown-item:hover {
   background: none;
   text-decoration: none;
-  color: $brand-primary;
+  /* color: $brand-primary; */
 }
 

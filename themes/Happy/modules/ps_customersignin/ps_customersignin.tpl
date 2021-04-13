@@ -38,7 +38,7 @@
                 
 
                 <i class="material-icons logged">&#xE7FF;</i>
-                <span class="hidden-sm-down">{$customerName}</span>
+                {* <span class="hidden-sm-down">{$customerName}</span> *}
             </a>
         {else}
             <a href="{$my_account_url}" title="{l s='Log in to your customer account' d='Shop.Theme.Customeraccount'}"
