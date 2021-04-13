@@ -1,0 +1,19 @@
+# j'ignore tout
+/*
+# j'annule l'ignorance du .gitignore
+!.gitignore
+!modules/
+!override/
+!themes/
+
+modules/*
+!modules/happy
+
+themes/*
+!themes/classic-child
+themes/classic-child/assets/cache/*
+!themes/Happy
+themes/Happy/_dev/node_modules
+themes/Happy/assets/cache/*
+themes/Happy/assets/css/*
+themes/Happy/assets/js/*

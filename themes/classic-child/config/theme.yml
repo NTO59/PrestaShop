@@ -1,0 +1,7 @@
+parent: classic
+name: classic-child
+display_name: Mon premier thème enfant
+version: 1.0.0
+# commentaire en YAML
+assets:
+  use_parent_assets: true
