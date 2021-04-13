@@ -35,10 +35,17 @@
   color: $gray;
   position: fixed;
   width: 100%;
-  z-index: 3;
+  z-index: 6;
+  transition: 0.5s;
+  &.scrolled {
+    transform: translateY(-100px);
+    transition: 0.5s;
+    
+  }
   .logo {
     max-width: 100%;
     position: absolute;
+    transition: 0.5s;
     top: -20px;
   }
   a {
@@ -151,6 +158,14 @@
   .header-top {
     > .container {
       position: relative;
+    }
+    .material-icons {
+      font-size: 34px;
+      color: $brand-primary;
+    }
+
+    #_desktop_user_info {
+      margin: 0 20px 0 40px;
     }
     /* padding-bottom: 1.25rem; */
     .menu {

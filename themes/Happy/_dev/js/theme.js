@@ -80,3 +80,23 @@ $(document).ready(() => {
     allowPageScroll: 'vertical',
   });
 });
+
+// Réduire la taille du menu au scroll
+/* window.addEventListener('scroll'); */
+$(window).on('scroll', function () {
+  console.log('la valeur du scroll sur Y est '+ window.scrollY);
+
+  // Vériffier avec une cpondition la valeur du scroll est supérieur
+  // ou égal a 180 et dans ce cas, on ajoute une classe CSS 
+  // spécifique à #header 
+  if(window.scrollY >= 185){
+
+    $('#header').addClass('scrolled');
+
+  }else {
+    $('#header').removeClass('scrolled')
+
+  }
+  
+
+});
