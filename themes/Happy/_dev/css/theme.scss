@@ -37,9 +37,21 @@
   width: 100%;
   z-index: 6;
   transition: 0.5s;
+
+  .scrolled-cart{
+    display: none;
+    float: right;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
   &.scrolled {
-    transform: translateY(-100px);
+    transform: translateY(-94px);
     transition: 0.5s;
+    box-shadow: 0 2px 22px 0 rgba(39, 38, 38, 0.5);
+    .scrolled-cart {
+      display: block;
+    }
     
   }
   .logo {
