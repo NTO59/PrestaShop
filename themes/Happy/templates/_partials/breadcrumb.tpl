@@ -24,7 +24,7 @@
  *}
 <nav data-depth="{$breadcrumb.count}" class="breadcrumb hidden-sm-down">
   <ol itemscope itemtype="http://schema.org/BreadcrumbList">
-    {block name='breadcrumb'}
+    
       {foreach from=$breadcrumb.links item=path name=breadcrumb}
         {block name='breadcrumb_item'}
           <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -37,6 +37,6 @@
           </li>
         {/block}
       {/foreach}
-    {/block}
+    
   </ol>
 </nav>
