@@ -26,6 +26,7 @@
 <html lang="{$language.iso_code}">
 
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
     {block name='head'}
         {include file='_partials/head.tpl'}
     {/block}

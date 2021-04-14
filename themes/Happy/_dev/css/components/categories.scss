@@ -74,7 +74,7 @@
     padding: $small-space;
     cursor: pointer;
     border: $input-btn-border-width solid $input-border-color;
-    @include box-shadow-light;
+    /* @include box-shadow-light; */
   }
   .select-list {
     display: block;
@@ -148,7 +148,7 @@
 #search_filters,
 #search_filters_brands,
 #search_filters_suppliers {
-  @include box-shadow;
+  /* @include box-shadow; */
   margin-bottom: 1.563rem;
   background: white;
   padding: 1.563rem 1.25rem;
